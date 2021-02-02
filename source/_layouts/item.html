@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='en'>
+<body>
+  <div class="container">
+    <img src="{{site.url}}/assets/images/{{page.filename}}", style="max-width: 800px;"
+    alt="{{page.alt_text}}" />    
+    <p>Image caption:{{page.caption}}</p>
+    <p>Date:{{page.start}} - {{page.end}}</p>
+    <p>Key Concepts:{{page.key_concepts}}</p>
+    <p>Archive: {{page.archive}}</p>
+    <p>Copyright: {{page.copyright}}</p>
+    <p>Timeline connections: {{page.timeline}}</p>
+    <p>{{page.full_description}}</p>
+    <p>Questions:</p>
+    <ul>{{page.questions}}</ul>
+    <p>References: {{page.references}}</p>
+  </div>
+</body>
+</html>

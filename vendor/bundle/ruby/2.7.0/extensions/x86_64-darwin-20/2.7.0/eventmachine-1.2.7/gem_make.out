@@ -1,0 +1,16 @@
+current directory: /Users/jessicamurray/Google-Drive/WORK/NYC-CRH/nyccrh-website/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/jessicamurray/.rbenv/versions/2.7.2/bin/ruby -I /Users/jessicamurray/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210202-79784-9fewxp.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jessicamurray/Google-Drive/WORK/NYC-CRH/nyccrh-website/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/jessicamurray/Google-Drive/WORK/NYC-CRH/nyccrh-website/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/jessicamurray/Google-Drive/WORK/NYC-CRH/nyccrh-website/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20210202-79784-g4guce

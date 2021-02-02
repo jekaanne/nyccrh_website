@@ -1,0 +1,28 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "_site/" # the subpath of your site, e.g. /blog
+title: "NYC Civil Rights History" 
+
+# Set the source folder
+source: source
+
+# load plugins
+plugins:
+  - jekyll-datapage-generator
+
+page_gen-dirs: true
+
+page_gen:
+- index_files: true
+  data: 'cisco_case'
+  template: 'item'
+  name: 'name'
+  dir: 'black-women-edu-adv/cisco_case'
+  title: 'lesson'
+
+- index_files: true
+  data: 'boe_segregation'
+  template: 'item'
+  name: 'name'
+  dir: 'black-women-edu-adv/boe_segregation'
+  title: 'lesson'
+  
