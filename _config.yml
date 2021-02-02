@@ -9,10 +9,10 @@ source: source
 plugins:
   - jekyll-datapage-generator
 
-page_gen-dirs: true
+page_gen-dirs: false
 
 page_gen:
-- index_files: true
+- index_files: false
   data: 'cisco_case'
   template: 'item'
   name: 'name'
